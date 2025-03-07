@@ -141,7 +141,7 @@ st.write(rfm_result[['DaySinceLastOrder', 'OrderCount', 'CashbackAmount', 'RFM_S
 # Membuat prediksi
 
 # Load model
-model_loaded = pickle.load(open('xgb_for_churn.sav', 'rb'))
+model_loaded = pickle.load(open('Streamlit_app/pages/xgb_for_churn.sav', 'rb'))
     
 # Predict to data
 try:
