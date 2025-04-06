@@ -26,7 +26,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        with open('xgb_for_churn.sav', 'rb') as f:
+        with open('Streamlit_app/pages/xgb_for_churn.sav', 'rb') as f:
             model = pickle.load(f)
         return model
     except Exception as e:
